@@ -1,0 +1,221 @@
+
+body {
+font-size: 16px;
+color:#fff;
+background-color:#61122f;
+font-family: 'Oxygen', sans-serif;
+line-height: .75;
+}
+
+/** Header**/
+#header-nav {
+  background-color: #f6b319;
+  height: 155px;
+  border-radius: 0;
+  border:0
+  }
+
+  .navbar-nav{
+    background-color: #f6b319;
+    margin:0px;
+    }
+
+/**Logo Image**/
+#logo-img{
+  background: URL('../Images/India Restaurant.jpg') no-repeat;
+  width: 155px;
+  height:140px;
+  margin:10px -25px 15px -20px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+
+/** Brand Name**/
+
+.navbar-brand{
+  margin-top: -45px;
+  margin-left:10px;
+  padding-left: 0px;
+}
+.navbar-brand h1 {
+  font-family:'Lora', serif;
+  font-size: .9em;
+  text-transform: uppercase;
+  text-shadow: 1px,1px,1px #222;
+  font-style:italic;
+  font-weight:bold;
+  color:#557c3e;
+  margin-bottom:0px;
+  margin-top:0px;
+  line-height:.75;
+}
+.navbar-brand a:hover, .navbar-brand a :focus{
+  text-decoration: none;
+}
+
+.navbar-brand p {
+  font-size:.4em;
+  color:#000;
+  text-transform:uppercase;
+  margin-top: 15px;
+}
+.navbar-brand p span {
+  vertical-align: middle;
+  font-weight: bold;
+}
+.navbar
+{
+  background-color: #f6b319 !important;
+  padding-top: 0px;
+
+}
+#nav-list
+{
+  margin-top:-70px
+}
+#nav-list a
+{
+  color:#61122f;
+}
+
+#nav-list a{
+  padding top:-30px;
+}
+#nav-list a:hover
+{
+  background:#e7e7e7;
+}
+
+.collapse navbar-collapse {
+  margin-top: 50px;
+  }
+navbar-header button.navbar-toggler, .navbar-header .navbar-toggler-icon{
+  boder:3px solid #61122f;
+}
+navbar-header button.navbar-toggler{
+
+  margin-top:00px;
+}
+
+#menu-tile, #specials-tile, #map-tile
+{
+  height:250px;
+  width:100%;
+  margin-bottom:15px;
+  position: relative;
+  border:2px solid #3F0C1F;
+  overflow:hidden;
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover{
+  box-shadow:0 1px 5px 1px #CCCCCC;
+}
+#menu-tile{
+  background: url('../Images/menu.jpg') no-repeat;
+  background-position: center;
+}
+#specials-tile{
+  background: url('../Images/specials.jpg') no-repeat;
+  background-position: center;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span {
+  position : absolute;
+  bottom:0;
+  right:0;
+  left:0;
+  width:10 0%;
+  text-align:center;
+  font-size: 1.2em;
+  height:20px;
+  text-transform: uppercase;
+  background-color: #000;
+  color:#fff;
+  opacity:.8;
+
+}
+.panel-footer{
+  margin-top:30px;
+  padding-top:35px;
+  padding-bottom: 30px;
+  bottom:0;
+  background-color: #222;
+}
+
+.panel-footer div.row{
+  margin-bottom:35px;
+}
+#Hours #Address{
+  line-height:2;
+}
+
+#Hours>span, #Address>Span{
+  font-size:1.3em;
+}
+#Address p{
+  color:#557c3e;
+  font-size:.8em;
+  line-height:1.8;
+}
+
+@media (min-width:1200px) {
+  .container .jumbotron{
+    background:url('../Images/Resturant_Lg.jpg') no-repeat;
+    height:675px;
+    box-shadow: 0 0 50px #3f0c1f;
+    border:2px solid #3foc1f;
+
+}
+
+
+@media (max-width:1199px) and (min-width:992px) {
+  #logo-img{
+    background: URL('../Images/India Restaurant Medium.jpg') no-repeat;
+  width: 151px;
+  height:129px;
+  margin:10px -25px 15px -20px;
+  }
+  .container .jumbotron{
+    background:url('../Images/Resturant_Md.JPG') no-repeat;
+    height:500px;
+    box-shadow: 0 0 50px #3f0c1f;
+    border:2px solid #3foc1f;
+  }
+}
+
+@media (min-width:768px) and (max-width:991px)
+{
+  .container .jumbotron{
+  background:url('../Images/Resturant_sm.jpg') no-repeat;
+  height:430px;
+  box-shadow: 0 0 50px #3f0c1f;
+  border:2px solid #3foc1f;
+}
+}
+
+@media (max-width:767px)
+{
+  .navbar-brand{
+    padding-top:10px;
+    height:80px;
+  }
+  .navbar-brand h1{
+    padding-top:10px;
+    font-size:3vw;
+  }
+.navbar-brand p{
+  font-size: .6em;
+  margin-top:12px;
+}
+.navbar-brand p .img{
+  height:20px;
+}
+}
+
+.jumbotron
+{
+  margin-top:30px;
+}
+#Main-Content .jumbotron{
+  position:relative;
+}
